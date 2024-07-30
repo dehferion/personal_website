@@ -1,0 +1,24 @@
+#root {
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.activeLink {
+    font-weight: 900;
+}
+.activeLink button {
+    font-weight: 900;
+}
+.app {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

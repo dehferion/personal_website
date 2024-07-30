@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    /*  vertically center the items */
+    align-items: center;
+    /*  horisontally center the items */
+    justify-content: center;
+    min-height: 50px;
+}

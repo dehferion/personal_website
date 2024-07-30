@@ -1,0 +1,74 @@
+nav a {
+    margin-right: 50px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-decoration: none;
+}
+.navDefault {
+    /* z-index: 2; */
+    padding: 5px;
+    /* background-color: aliceblue; */
+    margin-bottom: 40px;
+    top: 0;
+    transition: all 1s;
+}
+
+@media (max-width: 769px) {
+    nav {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+        background-color: #e9e7e7ee;
+        /* border-radius: 0 0 20px 20px; */
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    nav a {
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    nav a:last-child {
+        margin-bottom: 10px;
+    }
+
+    .triangleUp {
+        cursor: pointer;
+        width: 0;
+        height: 0;
+        border: 25px solid transparent;
+        border-top: 0;
+        border-bottom: 50px solid red;
+        margin-bottom: 20px;
+        align-self: start;
+        margin-left: 20px;
+        transition: all 1s;
+    }
+    .triangleDown {
+        cursor: pointer;
+        width: 0;
+        height: 0;
+        border: 25px solid transparent;
+        border-bottom: 0;
+        border-top: 50px solid red;
+        margin-bottom: 20px;
+        align-self: start;
+        margin-left: 20px;
+        transition: all 1s;
+    }
+
+    .hideNav {
+        position: absolute;
+        transition: all 1s;
+        top: -190px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+}

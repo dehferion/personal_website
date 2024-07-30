@@ -1,0 +1,20 @@
+.contacts {
+    font-family: CustomSerif, Georgia, Cambria, 'Times New Roman', serif;
+    padding-top: 40px;
+    font-size: 32px;
+}
+
+.contactsItem {
+    margin-bottom: 20px;
+}
+@media (max-width: 1440px) {
+    .contacts {
+        padding-top: 60px;
+    }
+    .contactsItem a {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 26px;
+        font-weight: 700;
+    }
+}

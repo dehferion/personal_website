@@ -1,0 +1,8 @@
+.tag {
+    display: inline;
+    color: rgba(0, 0, 0, 0.356);
+    font-size: 35px;
+    margin-right: 35px;
+    text-decoration: none;
+    font-size: 15px;
+}

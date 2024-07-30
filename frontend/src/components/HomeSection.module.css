@@ -1,0 +1,32 @@
+.homeSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 769px) {
+    .homeSection {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.triangles {
+    border: 60px solid transparent;
+    border-top-color: rgba(128, 128, 128, 0.664);
+    width: 0px;
+    height: 0px;
+}
+.title2 {
+    margin-bottom: 20px;
+}
+.centeredDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 25%;
+    max-width: 40%;
+}

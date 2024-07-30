@@ -1,0 +1,40 @@
+.post {
+    max-width: 720px;
+    font-family: CustomSerif, Georgia, Cambria, 'Times New Roman', serif;
+    margin-bottom: 40px;
+}
+
+.post h1 {
+    margin-bottom: 40px;
+}
+
+.post img {
+    max-width: 50%;
+    width: 600px;
+    margin-bottom: 40px;
+}
+.text {
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.58;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.editTime {
+    text-align: left;
+    font-size: 12px;
+    color: gray;
+}
+@media (max-width: 1440px) {
+    .post {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 720px) {
+    .post img {
+        min-width: 85%;
+    }
+}
